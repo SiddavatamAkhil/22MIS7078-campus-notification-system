@@ -1,0 +1,125 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #0f172a;
+  font-family: arial, sans-serif;
+}
+
+.mainbox{
+  width: 92%;
+  max-width: 760px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: white;
+  text-transform: lowercase;
+}
+
+.counttxt{
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 18px;
+  color: white;
+}
+
+.topbtns{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+button{
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+button:hover{
+  background-color: #dbe4ee;
+  transform: translateY(-1px);
+}
+
+.cardbox{
+  background-color: white;
+  color: black;
+  padding: 28px 20px;
+  border-radius: 14px;
+  margin-bottom: 24px;
+  text-align: center;
+  box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
+}
+
+.cardbox h2{
+  color: black;
+  margin-bottom: 18px;
+  text-transform: lowercase;
+}
+
+.cardbox p{
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  color: black;
+}
+
+.cardbox span{
+  color: gray;
+  font-size: 15px;
+}
+
+small{
+  color: blue;
+}
+
+.pagebox{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 45px;
+  padding-top: 15px;
+}
+
+.loadingtxt{
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+
+.emptytxt{
+  text-align: center;
+  margin-top: 40px;
+  color: #cbd5e1;
+}
+
+@media(max-width:600px){
+
+  h1{
+    font-size: 36px;
+  }
+
+  .cardbox{
+    padding: 22px 15px;
+  }
+
+  button{
+    width: 100%;
+  }
+
+  .topbtns{
+    flex-direction: column;
+  }
+
+}
